@@ -118,3 +118,11 @@ html {
 .author__urls:after {
   display: none !important;
 }
+
+/* ---- Smaller heading/body text on the Research and Media pages ----
+   Their long lists of publications/press mentions read as too large
+   at the site's base font size; scale content in the ".archive--compact"
+   wrapper (set conditionally in _layouts/archive.html) down a bit. */
+.archive--compact {
+  font-size: 0.82em;
+}
