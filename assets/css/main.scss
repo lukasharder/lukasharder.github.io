@@ -96,3 +96,25 @@ html {
 .page__footer-follow {
   background-color: #ffffff;
 }
+
+/* ---- Show social/contact links under the avatar on mobile too ----
+   The theme normally hides these behind a "Follow" toggle button
+   below desktop width; show them directly at all screen sizes. */
+.author__urls-wrapper button {
+  display: none !important;
+}
+
+.author__urls {
+  display: block !important;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.author__urls:before,
+.author__urls:after {
+  display: none !important;
+}
