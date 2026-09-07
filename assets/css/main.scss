@@ -47,18 +47,40 @@
   --global-masthead-link-color-hover: #1B2A4A;
 }
 
+/* Force the light theme's colors even if the visitor's OS/browser is set to
+   dark mode, or if the dark-mode toggle was ever triggered. This keeps the
+   site's background reliably white instead of the theme's dark gray. */
+html[data-theme="dark"] {
+  --global-base-color: #1B2A4A;
+  --global-bg-color: #ffffff;
+  --global-footer-bg-color: #ffffff;
+  --global-border-color: #d6d8da;
+  --global-dark-border-color: #bdc1c4;
+  --global-code-background-color: #fafafa;
+  --global-code-text-color: #3f4245;
+  --global-fig-caption-color: #838383;
+  --global-link-color: #1B2A4A;
+  --global-link-color-hover: #35507d;
+  --global-link-color-visited: #1B2A4A;
+  --global-masthead-link-color: #494949;
+  --global-masthead-link-color-hover: #1B2A4A;
+  --global-text-color: #494949;
+  --global-text-color-light: #7a8288;
+  --global-thead-color: #eeeeee;
+}
+
 .author__avatar img {
-  max-width: 100px !important;
-  width: 100px;
-  height: 100px;
+  max-width: 150px !important;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 }
 
 @media (min-width: 1024px) {
   .author__avatar img {
-    max-width: 175px !important;
-    width: 175px;
-    height: 175px;
+    max-width: 220px !important;
+    width: 220px;
+    height: 220px;
   }
 }
 
@@ -74,4 +96,3 @@ html {
 .page__footer-follow {
   background-color: #ffffff;
 }
-
