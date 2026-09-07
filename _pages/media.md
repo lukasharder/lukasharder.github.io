@@ -7,6 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.archive {
+  font-size: 0.82em;
+}
+</style>
+
 Bach, Geyer, Haan & Harder (2026) — abolishing penalty-free early retirement
 ======
 * **Tagesschau.de** — [DIW-Studie: Aus für „Rente mit 63" würde Milliarden sparen](https://www.tagesschau.de/wirtschaft/arbeitsmarkt/rente-mit-63-berechnung-studie-100.html)
