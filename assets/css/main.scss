@@ -126,3 +126,11 @@ html {
 .archive--compact {
   font-size: 0.82em;
 }
+
+/* On small screens, the wrapper holding the social/contact links is
+   "display: table-cell" (theme default) and squeezes into the same row
+   as the bio text. Make it a normal block below the bio instead. */
+.author__urls-wrapper {
+  display: block !important;
+  margin-top: 0.75em;
+}
