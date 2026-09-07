@@ -37,3 +37,27 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* ---- Custom branding overrides ---- */
+:root {
+  --global-base-color: #1B2A4A;
+  --global-link-color: #1B2A4A;
+  --global-link-color-hover: #35507d;
+  --global-link-color-visited: #1B2A4A;
+  --global-masthead-link-color-hover: #1B2A4A;
+}
+
+.author__avatar img {
+  max-width: 100px !important;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .author__avatar img {
+    max-width: 220px !important;
+    width: 220px;
+    height: 220px;
+  }
+}
