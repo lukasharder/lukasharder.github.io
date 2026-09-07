@@ -5,7 +5,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
-
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
@@ -14,7 +13,6 @@ name                     : &name "Lukas Harder"
 description              : &description "Lukas Harder — Research Associate & PhD Candidate in Economics, Freie Universität Berlin"
 url                      : https://lukasharder.github.io
 repository               : "lukasharder/lukasharder.github.io"
-
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
@@ -26,7 +24,6 @@ author:
   location         : "Berlin, Germany"
   employer         : "Freie Universität Berlin"
   email            : "lukas.harder@fu-berlin.de"
-
   # Academic websites
   academia         : 
   arxiv            : 
@@ -40,16 +37,13 @@ author:
   researchgate     : 
   scopus           : 
   zotero           : 
-
-
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "lukasharder"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
   # Social media
   artstation       : 
   bluesky          : 
@@ -76,7 +70,6 @@ author:
   xing             : 
   youtube          : 
   zhihu            : 
-
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
@@ -85,9 +78,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-     policy:
+  policy:
     title: 'Policy Writing'
-
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
@@ -124,15 +116,11 @@ staticman:
 atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
-
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
-
 # Social Sharing
 twitter:
   username               : &twitter
@@ -148,15 +136,11 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
-
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
-
 # Reading Files
 include:
   - .htaccess
@@ -194,16 +178,12 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -214,8 +194,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-
 # These settings control the types of collections used by the template
 collections:
   teaching:
@@ -230,8 +208,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
-
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
@@ -287,21 +263,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
 # Plugins
 plugins:
   - jekyll-feed
@@ -310,7 +280,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
@@ -319,8 +288,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -348,8 +315,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
