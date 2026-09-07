@@ -11,4 +11,4 @@ redirect_from:
 
 You can download my full CV as a PDF here: **[Download CV (PDF)]({{ base_path }}/files/CV (1).pdf)**
 
-<embed src="{{ base_path }}/files/cv.pdf" type="application/pdf" width="100%" height="800px" />
+<embed src="{{ base_path }}/files/CV (1).pdf" type="application/pdf" width="100%" height="800px" />
